@@ -25,18 +25,37 @@
     text-align: left;
     padding:20px;
     box-shadow: grey 5px 5px 10px;
-
+    margin-top: 20px;
+  }
+  .descr
+  {
+    padding: 10px 10px 20px 30px;
+    font-size:14px;
+    color:#808080;
   }
   </style>
 </head>
 <body style="text-align: center; content-align: center">
-<h1>Repositories</h1><br/>
 <div class="box">
+<center><h1>MC Library Projects</h1>
+<img style="width:100px" src="images/monkey-logo.png">
+<div style="font-size:12px;color:#4080A0;">Monkey Software</div>
+</center>
+
   <h3>ESP8266/ESP32:</h3>
-  <a href = "MCOTAUpdater/">MC OTA Updater</a><br/><br/>
-  <a href = "MCSPIFFSUploaderServer/">MC SPIFFS Uploader Server</a><br/><br/>
-  <a href = "MCESPInternetDateTime/">MC ESP Internet Date Time</a><br/><br/>
-  <br/>
+  <a href = "MCOTAUpdater/">MC OTA Updater</a>
+  <div class="descr">
+  Simple automatic OTA uploader that check on a web site a new version of the software, download and install it!
+  </div>
+  <a href = "MCSPIFFSUploaderServer/">MC SPIFFS Uploader Server</a><br/>
+  <div class="descr">
+  Simple SPIFFS Uploader Server to be managed as remote file manager!
+  </div>
+
+  <a href = "MCESPInternetDateTime/">MC ESP Internet Date Time</a><br/>
+  <div class="descr">
+  Recover correct date/time from the network
+  </div>
   <br/>
   <h3>Arduino IDE:</h3>
   <a href = "MC_MCP41010/">MC MCP41010</a>
@@ -44,6 +63,6 @@
 
 
 
-<div class="feed">Powered By Monkey @ MCSoftware</div>
+<div class="feed">Powered By Monkey Software, MCSoftware</div>
 </body>
 </html>
